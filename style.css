@@ -1,51 +1,113 @@
-body { 
-    background-color: #0d192c;
+body {
     display: flex;
-    justify-content: center;  
-    align-items: center;      
-    height: 100vh;            
-    margin: 0;                
-}
-
-#bg {
-    background-color: #15263F;
-    width: 320px;
-    height: 620px;
-    border-radius: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
     justify-content: center;
-    position: relative;
-    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    background-color: #0D192C;
+    font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
-.MainText {
+
+#box {
+    width: 350px;
+    height: 596px;
+    background-color: #15263F;
+    border-radius: 15px;
+}
+
+#picture {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+h2 {
+    margin-left: 24px;
     color: white;
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 27.72px;
 }
 
-.Description {
+#description {
+    margin-left: 24px;
+    margin-right: 24px;
     color: #8BACD9;
-    font-size: 16px;
-}
-
-.text1 {
-    color: #00fff7;
+    font-weight: 300;
     font-size: 18px;
-    font-weight: bold;
+    line-height: 26px;
 }
 
-.text2 {
-    color: #8bacda;
-    font-size: 14px;
-    text-align: right;
+#main_div {
+    display: flex;
+    justify-content: space-between;
+    width: 301px;
+    height: 20px;
+    margin-left: 24px;
 }
 
-.bottom_texts {
-    color: #8bacda;
-    font-size: 14px;
+#eth,#days {
+    display: flex;
+    justify-content: space-between;
+    width: 93.48px;
+    height: 20px;
+    align-items: center;
 }
 
+.ethernium {
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+}
 
+.count {
+    color: #8BACD9;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+}
+
+.shapex2_image {
+    width: 11px;
+    height: 18px;
+    margin-top: 1px;
+}
+
+.clock {
+    width: 16px;
+    height: 16px;
+}
+
+#line {
+    width: 302px;
+    height: 1px;
+    border-color: #2E405A;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 230px;
+    height: 33px;
+    margin-left: 24px;
+}
+
+.text_creation {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;
+}
+
+.text_name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #ffffff;
+}
